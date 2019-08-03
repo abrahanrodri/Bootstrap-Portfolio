@@ -4,58 +4,73 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact | Your Name</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Your Name</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-green bg-dark">
+      <a class="navbar-brand" href="index.html">Abe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html"> <span class="sr-only">(current)</span>About</a>
+          <a class="nav-item nav-link" href="index.html">Home</a>
           <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link active" href="contact.html"><span class="sr-only">(current)</span>Contact</a>
         </div>
       </div>
     </nav>
   </div>
   
+  <div class="cardContact text-white bg-dark mb-3 text-primary" style="max-width: 65rem;">
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
+        <div class="card-header text-primary">Contact</div>
+      <div class="container">
+        <div class="row">
+          <div id="form_container">
+            <form role="form">
+              <div class="col-sm-12 form-group">
+                <label for="name">
+                  Your Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="col-sm-12 form-group">
+                <label for="email">
+                  Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+  
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <label for="message">
+                    Message:</label>
+                  <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000"
+                    rows="7"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button type="submit" class="btn btn-secondary">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
-
   </div>
+</div>
+          
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+  <div class="navbar fixed-bottom">Abe</div>
+
 </body>
 
 </html>

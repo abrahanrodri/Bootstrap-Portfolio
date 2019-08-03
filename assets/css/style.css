@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/portfolio-background.png");
+}
+.cardIndex {
+    margin-bottom: 10px; 
+    margin-top: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.cardContact {
+    margin-bottom: 10px; 
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.cardPortfolio {
+    margin-bottom: 10px; 
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.form-control{
+    display: block;
+    width: 400%;
+}
+
+.aboutme{
+    height: 150px;
+    width: 200px;
+}
+
+.portfolio a img{
+    width: 90%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.navbar-nav{
+    position: left;
+}
